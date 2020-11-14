@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "projectName": "ProjBiblio.Domain",
+        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "projectName": "ProjBiblio.Infrastructure.Data",
+        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

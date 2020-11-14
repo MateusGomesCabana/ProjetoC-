@@ -1,0 +1,12 @@
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\bin\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.deps.json
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\bin\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.dll
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\bin\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.pdb
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\bin\Debug\netstandard2.0\ProjBiblio.Domain.dll
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\bin\Debug\netstandard2.0\ProjBiblio.Domain.pdb
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.csproj.CopyComplete
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.dll
+C:\Users\Mateus\Desktop\fatec\pos\dotnet\aula 05\ProjBiblio\ProjBiblio.Infrastructure.Data\obj\Debug\netstandard2.0\ProjBiblio.Infrastructure.Data.pdb
