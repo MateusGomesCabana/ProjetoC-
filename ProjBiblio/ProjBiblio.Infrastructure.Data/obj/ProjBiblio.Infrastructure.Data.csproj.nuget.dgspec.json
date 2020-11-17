@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {}
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
         "projectName": "ProjBiblio.Domain",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
+        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj",
         "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
+    "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
         "projectName": "ProjBiblio.Infrastructure.Data",
-        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
+        "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\ProjBiblio.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -84,8 +84,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
+              "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mateus\\Desktop\\fatec\\pos\\dotnet\\aula 05\\ProjetoC-\\ProjBiblio\\ProjBiblio.Domain\\ProjBiblio.Domain.csproj"
               }
             }
           }
@@ -99,6 +99,16 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

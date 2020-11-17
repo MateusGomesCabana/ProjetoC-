@@ -10,41 +10,48 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
 using ProjBiblio.Infrastructure.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
-namespace ProjBiblio.WebApi {
-    public class Startup {
-        public Startup (IConfiguration configuration) {
+namespace ProjBiblio.WebApi
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices (IServiceCollection services) {
-            services.AddControllers ();
-            // Add using Microsoft.EntityFrameworkCore; para aparecer a opção Use
-            string conn = Configuration.GetConnectionString ("DefaultConnection");
-            services.AddDbContext<BibliotecaDbContext> (options =>
-                options.UseNpgsql (conn));
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
 
+            // Add using Microsoft.EntityFrameworkCore; para aparecer a opção Use
+            string conn = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<BibliotecaDbContext>(options => 
+                options.UseNpgsql(conn));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure (IApplicationBuilder app, IWebHostEnvironment env) {
-            if (env.IsDevelopment ()) {
-                app.UseDeveloperExceptionPage ();
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection ();
+            app.UseHttpsRedirection();
 
-            app.UseRouting ();
+            app.UseRouting();
 
-            app.UseAuthorization ();
+            app.UseAuthorization();
 
-            app.UseEndpoints (endpoints => {
-                endpoints.MapControllers ();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
             });
         }
     }
