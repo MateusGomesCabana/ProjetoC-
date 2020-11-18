@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 namespace ProjBiblio.Domain.Entities
 {
     public class Usuario

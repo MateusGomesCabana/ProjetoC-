@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjBiblio.Domain.Entities;
-
+using System.Reflection;
+using ProjBiblio.Infrastructure.Data.Context.Config;
 namespace ProjBiblio.Infrastructure.Data.Context
 {
     public class BibliotecaDbContext : DbContext
@@ -9,11 +10,29 @@ namespace ProjBiblio.Infrastructure.Data.Context
         {
 
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // modelBuilder.ApplyConfiguration(new AutorConfiguration());
+
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            // // modelBuilder.Entity<Autor>()
+            // //     .Property(p => p.Nome)
+            // //     .IsRequired();
+        }
 
         public DbSet<Autor> Autor { get; set; }
 
         public DbSet<Livro> Livro { get; set; }  
 
         public DbSet<Usuario> Usuario { get; set; }
+        
+        public DbSet<Emprestimo> Emprestimo { get; set; }
+
+        public DbSet<LivroAutor> LivroAutor { get; set; }
+
+        public DbSet<LivroEmprestimo> LivroEmprestimo { get; set; }
+    
     }
 }
